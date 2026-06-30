@@ -1,0 +1,286 @@
+export const studentProfile = {
+  name: "Akshaya",
+  roll: "717824I303",
+  role: "Student",
+  year: "First Year",
+  section: "A",
+  department: "Artificial Intelligence and Data Science",
+  batch: "2024 - 2028",
+  cgpa: "9.15",
+  attendance: "93%",
+  email: "717824i303@akshaya.edu",
+  skills: ["Python", "React", "AI Basics", "Data Science", "Problem Solving"],
+  achievements: ["AI Club Member", "Hackathon Participant", "Top Attendance"],
+  certificates: ["IoT Foundation", "Cyber Security Basics", "Generative AI"],
+};
+
+export const blocks = [
+  {
+    id: "a-block",
+    block: "A Block",
+    title: "First Year Students",
+    badge: "Foundation",
+    color: "from-indigo-500 to-cyan-500",
+    description: "First year academic block for foundation courses and common engineering subjects.",
+    faculty: 42,
+    students: 860,
+    totalClasses: 11,
+    hod: "First Year Coordinator",
+    floors: [
+      {
+        name: "Ground Floor",
+        classes: ["A101", "A102", "A103", "A104"],
+        subjects: ["Engineering Mathematics", "Physics", "English"],
+      },
+      {
+        name: "First Floor",
+        classes: ["A201", "A202", "A203", "A204"],
+        subjects: ["Chemistry", "Basic Electrical", "Engineering Graphics"],
+      },
+      {
+        name: "Second Floor",
+        classes: ["A301", "A302", "A303"],
+        subjects: ["Programming in C", "Communication Skills", "Workshop"],
+      },
+    ],
+    labs: ["Communication Lab", "Basic Computing Lab", "Tutorial Rooms"],
+  },
+  {
+    id: "b-block",
+    block: "B Block",
+    title: "Physics Lab, Chemistry Lab, New Hall",
+    badge: "Science Labs",
+    color: "from-cyan-500 to-emerald-500",
+    description: "Science laboratory block and new hall for academic programs.",
+    faculty: 18,
+    students: 420,
+    totalClasses: 5,
+    hod: "Science Department Coordinator",
+    floors: [
+      {
+        name: "Ground Floor",
+        classes: ["Physics Lab 1", "Physics Lab 2"],
+        subjects: ["Engineering Physics Practical"],
+      },
+      {
+        name: "First Floor",
+        classes: ["Chemistry Lab 1", "Chemistry Lab 2"],
+        subjects: ["Engineering Chemistry Practical"],
+      },
+      {
+        name: "Second Floor",
+        classes: ["New Hall"],
+        subjects: ["Seminars", "Orientation", "Guest Lectures"],
+      },
+    ],
+    labs: ["Physics Lab", "Chemistry Lab", "New Hall"],
+  },
+  {
+    id: "c-block",
+    block: "C Block",
+    title: "CSE, IT, Cyber Security",
+    badge: "Computing",
+    color: "from-violet-500 to-indigo-500",
+    description: "Computing block for CSE, IT and Cyber Security departments.",
+    faculty: 66,
+    students: 1180,
+    totalClasses: 13,
+    hod: "Computing Cluster HOD",
+    floors: [
+      {
+        name: "Ground Floor",
+        classes: ["C101", "C102", "C103", "Network Lab"],
+        subjects: ["Data Structures", "Computer Networks"],
+      },
+      {
+        name: "First Floor",
+        classes: ["C201", "C202", "C203", "IT Lab"],
+        subjects: ["DBMS", "Web Technology", "Operating Systems"],
+      },
+      {
+        name: "Second Floor",
+        classes: ["C301", "C302", "Cyber Lab", "Project Lab"],
+        subjects: ["Cyber Security", "Cloud Computing", "Software Engineering"],
+      },
+    ],
+    labs: ["Programming Lab", "Network Lab", "Cyber Security Lab", "Project Lab"],
+  },
+  {
+    id: "d-block",
+    block: "D Block",
+    title: "Artificial Intelligence and Data Science",
+    badge: "AIDS",
+    color: "from-indigo-600 to-blue-500",
+    description: "AI & DS department block with data science, machine learning and project labs.",
+    faculty: 28,
+    students: 320,
+    totalClasses: 9,
+    hod: "AIDS HOD",
+    floors: [
+      {
+        name: "Ground Floor",
+        classes: ["D101", "D102", "AI Lab"],
+        subjects: ["Python", "Statistics", "Data Structures"],
+      },
+      {
+        name: "First Floor",
+        classes: ["D201", "D202", "ML Lab"],
+        subjects: ["Machine Learning", "Database Systems", "Data Mining"],
+      },
+      {
+        name: "Second Floor",
+        classes: ["D301", "D302", "Project Studio"],
+        subjects: ["Deep Learning", "Data Visualization", "Big Data Analytics"],
+      },
+    ],
+    labs: ["AI Lab", "ML Lab", "Data Analytics Lab", "Project Studio"],
+  },
+  {
+    id: "f-block",
+    block: "F Block",
+    title: "Food Court",
+    badge: "Food Zone",
+    color: "from-amber-500 to-orange-500",
+    description: "Campus food court with cafe, juice shop, snacks and refreshment zone.",
+    faculty: 0,
+    students: 1500,
+    totalClasses: 4,
+    hod: "Facility Manager",
+    floors: [
+      {
+        name: "Ground Floor",
+        classes: ["Main Food Court", "Juice Shop", "Cafe"],
+        subjects: ["Breakfast", "Lunch", "Snacks"],
+      },
+      {
+        name: "First Floor",
+        classes: ["Student Lounge"],
+        subjects: ["Discussion", "Refreshment"],
+      },
+    ],
+    labs: ["Hygiene Counter", "Billing Counter", "Cafe"],
+  },
+  {
+    id: "l-block",
+    block: "L Block",
+    title: "Central Library",
+    badge: "Library",
+    color: "from-emerald-500 to-teal-500",
+    description: "Library block with digital library, reading hall, question bank and books.",
+    faculty: 8,
+    students: 2000,
+    totalClasses: 6,
+    hod: "Chief Librarian",
+    floors: [
+      {
+        name: "Ground Floor",
+        classes: ["Book Issue", "Reading Hall", "Reference Section"],
+        subjects: ["Textbooks", "Reference Books"],
+      },
+      {
+        name: "First Floor",
+        classes: ["Digital Library", "Research Section", "Question Bank Desk"],
+        subjects: ["E-books", "Journals", "Previous Papers"],
+      },
+    ],
+    labs: ["Digital Library", "Reading Hall", "Research Desk"],
+  },
+  {
+    id: "mba-block",
+    block: "MBA Block",
+    title: "MBA Students",
+    badge: "Management",
+    color: "from-rose-500 to-amber-500",
+    description: "Management studies block with business analytics lab and seminar halls.",
+    faculty: 22,
+    students: 300,
+    totalClasses: 6,
+    hod: "MBA HOD",
+    floors: [
+      {
+        name: "Ground Floor",
+        classes: ["MBA101", "MBA102", "MBA103"],
+        subjects: ["Management Principles", "Accounting", "Economics"],
+      },
+      {
+        name: "First Floor",
+        classes: ["Business Analytics Lab", "MBA Seminar Hall", "Case Study Room"],
+        subjects: ["Analytics", "Finance", "Marketing"],
+      },
+    ],
+    labs: ["Business Analytics Lab", "Case Study Room", "Seminar Hall"],
+  },
+];
+
+export const clubs = [
+  ["Nature Club", "🌿"],
+  ["Photography Club", "📸"],
+  ["Film Makers Club", "🎬"],
+  ["Food & Nutrition Club", "🥗"],
+  ["Cycling Club", "🚴"],
+  ["Yoga Club", "🧘"],
+  ["Journalism Club", "📰"],
+  ["Toastmasters Club", "🎙️"],
+  ["Ethnic Club", "🎭"],
+  ["Coding Club", "💻"],
+  ["Robotics Club", "🤖"],
+  ["AI Club", "🧠"],
+].map(([name, icon], index) => ({
+  id: name.toLowerCase().replaceAll(" ", "-"),
+  name,
+  icon,
+  members: 85 + index * 31,
+  description: `${name} helps students improve practical skills, confidence and leadership.`,
+}));
+
+export const events = [
+  { name: "Hackathon", date: "Jul 05", time: "09:00 AM", venue: "New Hall", countdown: "6 days left" },
+  { name: "Symposium", date: "Jul 10", time: "10:00 AM", venue: "Auditorium", countdown: "11 days left" },
+  { name: "Workshop", date: "Jul 14", time: "01:30 PM", venue: "AI Lab", countdown: "15 days left" },
+  { name: "Placement Drive", date: "Jul 18", time: "09:30 AM", venue: "Placement Cell", countdown: "19 days left" },
+  { name: "Cultural Fest", date: "Jul 25", time: "05:00 PM", venue: "Open Stage", countdown: "26 days left" },
+  { name: "Sports Day", date: "Aug 02", time: "08:00 AM", venue: "Ground", countdown: "34 days left" },
+];
+
+export const placements = [
+  { company: "Google", package: "₹32 LPA", eligibility: "CGPA 8.5+ · DSA · Projects", status: "Open" },
+  { company: "Microsoft", package: "₹28 LPA", eligibility: "CGPA 8.0+ · Coding Round", status: "Open" },
+  { company: "Amazon", package: "₹24 LPA", eligibility: "CGPA 7.5+ · Problem Solving", status: "Open" },
+  { company: "Zoho", package: "₹8 LPA", eligibility: "CGPA 7.0+ · Aptitude", status: "Hiring" },
+  { company: "TCS", package: "₹4.5 LPA", eligibility: "All branches · No active arrears", status: "Open" },
+  { company: "Infosys", package: "₹5 LPA", eligibility: "No active arrears", status: "Open" },
+];
+
+export const resources = [
+  { name: "AI Notes", type: "Notes", pages: 68, desc: "Artificial Intelligence foundation notes." },
+  { name: "Previous Year Papers", type: "PYQ", pages: 120, desc: "Previous semester question papers." },
+  { name: "Syllabus", type: "PDF", pages: 24, desc: "Department syllabus and course outcomes." },
+  { name: "Timetable", type: "Schedule", pages: 2, desc: "Class timetable and lab hours." },
+  { name: "Question Bank", type: "QB", pages: 180, desc: "Unit-wise important questions." },
+  { name: "Books", type: "Library", pages: 540, desc: "Recommended books and references." },
+];
+
+export const announcements = [
+  { title: "Pinned Announcement", message: "Semester practical schedule updated for all departments.", tag: "Pinned" },
+  { title: "Latest Circular", message: "ID card is mandatory inside campus from Monday.", tag: "Circular" },
+  { title: "Exam Schedule", message: "CIA timetable has been published in the student portal.", tag: "Exam" },
+  { title: "Holiday Notice", message: "College remains closed on the upcoming local holiday.", tag: "Holiday" },
+  { title: "Scholarship", message: "Eligible students can apply before the deadline.", tag: "Scholarship" },
+];
+
+export const searchItems = [
+  "CGPA Calculator",
+  "A Block First Year",
+  "B Block Physics Lab",
+  "D Block AIDS",
+  "Food Court",
+  "Central Library",
+  "AI Club",
+  "Coding Club",
+  "Hackathon",
+  "Google Placement",
+  "Previous Year Papers",
+  "Profile",
+  "Settings",
+  "Timetable",
+];
